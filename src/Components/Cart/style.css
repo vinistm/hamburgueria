@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito:wght@800&family=Rock+3D&display=swap');
+@media(min-width:300px) and (max-width:1000px){
+.carrinho{
+    
+   width: 300px;
+    margin:15px;
+    background: #F5F5F5;
+    border-radius: 0px 0px 5px 5px;
+}
+.carrinho .title{
+    background: #27AE60;
+    border-radius: 5px 5px 0px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    height: 65px;
+    color: #FFFFFF;
+    display: flex; 
+    align-items: center;   
+    padding-left: 20px;
+}
+.sacolaVazia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sacolaVazia h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #333333;
+}
+.sacolaVazia p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #828282;
+
+}
+.lista{
+    margin-left: 10px;
+    width: 280px;
+    height: 1px;
+    border: 1px solid  #E0E0E0;
+}
+
+.removeAll{
+    background: #E0E0E0;
+    border: 2px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 280px;
+    height: 50px;
+    padding: 0px 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #828282;
+    
+
+}
+.removeAll:hover{
+    cursor: pointer;
+    background-color: #ff0000dc;
+    color: white;
+}
+.totalPrice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.totalPrice h2{
+    color:#828282;;
+}
+
+}
+@media(min-width:1001px) and (max-width:1439px){
+    .carrinho{
+
+        width: 310px;
+        height: auto;
+        background: #F5F5F5;
+        border-radius: 0px 0px 5px 5px;
+        margin: 20px 0px 0px 20px;
+            
+        }
+        .carrinho .title{
+        background: #27AE60;
+        border-radius: 5px 5px 0px 0px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        height: 65px;
+        color: #FFFFFF;
+        display: flex; 
+        align-items: center;   
+        padding-left: 20px;
+        margin-top: 0;
+        }
+        .sacolaVazia{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .sacolaVazia h1{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 24px;
+            text-align: center;
+            color: #333333;
+        }
+        .sacolaVazia p{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            text-align: center;
+            color: #828282;
+        
+        }
+        .lista{
+            margin-left: 10px;
+            width: 280px;
+            height: 1px;
+            border: 1px solid  #E0E0E0;
+        }
+        
+        .removeAll{
+            background: #E0E0E0;
+            border: 2px solid #E0E0E0;
+            box-sizing: border-box;
+            border-radius: 8px;
+            width: 280px;
+            height: 50px;
+            padding: 0px 20px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 19px;
+            color: #828282;
+        
+        }
+        .totalPrice{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 8px;
+            line-height: 24px;
+            margin-left: 20px;
+            margin-right: 20px;
+            
+        }
+        .totalPrice h2{
+            color:#828282;;
+        } 
+        .removeAll:hover{
+            cursor: pointer;
+            background-color: #ff0000dc;
+            color: white;
+        }
+}
+@media(min-width:1440px){
+.carrinho{
+
+    width: 310px;
+    height: auto;
+    background: #F5F5F5;
+    border-radius: 0px 0px 5px 5px;
+    margin: 20px 0px 0px 20px;
+        
+    }
+    .carrinho .title{
+    background: #27AE60;
+    border-radius: 5px 5px 0px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    height: 65px;
+    color: #FFFFFF;
+    display: flex; 
+    align-items: center;   
+    padding-left: 20px;
+    margin-top: 0;
+    }
+    .sacolaVazia{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sacolaVazia h1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        color: #333333;
+    }
+    .sacolaVazia p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #828282;
+    
+    }
+    .lista{
+        margin-left: 10px;
+        width: 280px;
+        height: 1px;
+        border: 1px solid  #E0E0E0;
+    }
+    
+    .removeAll{
+        background: #E0E0E0;
+        border: 2px solid #E0E0E0;
+        box-sizing: border-box;
+        border-radius: 8px;
+        width: 280px;
+        height: 50px;
+        padding: 0px 20px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #828282;
+    
+    }
+    .removeAll:hover{
+        cursor: pointer;
+        background-color: #ff0000dc;
+        color: white;
+    }
+    .totalPrice{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 8px;
+        line-height: 24px;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+    .totalPrice h2{
+        color:#828282;;
+    }
+}

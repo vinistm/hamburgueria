@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito:wght@800&family=Rock+3D&display=swap');
+@media(min-width:300px) and (max-width:1000px){
+.cardProduct{
+    border: 2px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    
+}
+.cardProduct .img{
+  width: 260px;
+  background-color:#F5F5F5;;
+  display: flex; 
+  justify-content: center;   
+}
+.cardProduct img{
+ width: 170px;
+}
+.cardProduct h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    margin-left: 20px;
+    margin-top: 26px;
+}
+.cardProduct p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #828282;
+    margin: 0;
+    margin-left: 20px;
+}
+.cardProduct h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #27AE60;
+    margin-left: 20px;
+}
+.cardProduct button{
+    background: #27AE60;
+    border: 2px solid #27AE60;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 106px;
+    height: 40px;
+    margin-left: 20px;
+    color: white;
+}
+.cardProduct button:hover{
+    background-color: #0f6633;
+    cursor: pointer;
+  }
+.textos{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 200px;
+    
+}
+}
+@media(min-width:1001px) and(max-width:1439px){
+    
+}
+@media(min-width:1001px){
+
+
+.cardProduct{
+    border: 2px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 346px;
+    
+}
+.cardProduct .img{
+  width: 260px;
+  background-color:#F5F5F5;;
+  display: flex; 
+  justify-content: center;   
+}
+.cardProduct img{
+ width: 170px;
+}
+.cardProduct h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    margin-left: 20px;
+    margin-top: 24px;
+}
+.cardProduct p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #828282;
+    margin: 0;
+    margin-left: 20px;
+}
+.cardProduct h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #27AE60;
+    margin-left: 20px;
+}
+.cardProduct button{
+    background: #27AE60;
+    border: 2px solid #27AE60;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 106px;
+    height: 40px;
+    margin-left: 20px;
+    color: white;
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 200px;
+    
+}
+.cardProduct button:hover{
+    background-color: #0f6633;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito:wght@800&family=Rock+3D&display=swap');
+@media(min-width:300px) and (max-width:1000px){
+.cardCarrinho{
+    
+    display: flex;
+    
+}
+
+.cardCarrinho img{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    background: #E0E0E0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.cardCarrinho h1{
+  
+    width: 130px;
+    height: 30px;
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    
+}
+
+.cardCarrinho p{
+   
+    margin-top: 0;
+    font-size: 12px;
+    color: #828282;
+    margin-left: 5px;
+}
+.cardCarrinho h4{
+    width: 51px;
+    height: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+     color: #BDBDBD;
+}
+}
+@media(min-width:1001px) and (max-width:1439px){
+    .cardCarrinho{
+    
+        display: flex;
+    }
+    
+    .cardCarrinho img{
+        width: 70px;
+        height: 70px;
+        margin-left: 20px;
+        background: #E0E0E0;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .cardCarrinho h1{
+        
+        width: 140px;
+        height: 30px;
+        font-size: 18px;
+        margin-bottom: 0;
+        margin-left: 5px;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+    }
+    .cardCarrinho p{
+        margin-top: 0;
+        font-size: 12px;
+        color: #828282;
+        margin-left: 5px;
+    }
+    .cardCarrinho h4{
+        width: 51px;
+        height: 15px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+         color: #BDBDBD;
+    }
+    }
+
+@media(min-width:1440px){
+
+
+.cardCarrinho{
+    
+    display: flex;
+}
+
+.cardCarrinho img{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    background: #E0E0E0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.cardCarrinho h1{
+    
+    width: 145px;
+    height: 30px;
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.cardCarrinho p{
+    margin-top: 0;
+    font-size: 12px;
+    color: #828282;
+    margin-left: 5px;
+}
+.cardCarrinho h4{
+    width: 51px;
+    height: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+     color: #BDBDBD;
+}
+}

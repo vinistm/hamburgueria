@@ -1,0 +1,10 @@
+@media(min-width:300px) and (max-width:1000px){
+.App {
+  text-align: center;
+}
+}
+@media(min-width:1001px){
+.containerCarrinho{
+  display: flex;
+}
+}

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito:wght@800&family=Rock+3D&display=swap');
+@media(min-width:300px) and (max-width:1000px){ 
+.Header{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 139px;
+     background-color: #F5F5F5;
+ }
+ .Header img{
+     margin-bottom: 20px;
+ }
+ 
+ .busca{
+     
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 15px;
+    width: 310px;
+    height: 60px;
+    background: #ffffff;
+    border: 2px solid #e0e0e0;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  
+  .busca input {
+    width: 180px;
+    height: 19px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color:#E0E0E0;
+  }
+
+  .busca button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    width: 90px;
+    height: 40px;
+    background: #27ae60;
+    border: 2px solid #27ae60;
+    box-sizing: border-box;
+    border-radius: 8px;
+  
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .busca button:hover{
+    background-color: #0f6633;
+  }
+  
+}
+@media(min-width:1001px) and(max-width:1439px){
+  .busca button:hover{
+    background-color: #0f6633;
+  }
+}
+@media(min-width:1001px){
+
+.Header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #F5F5F5;
+  align-items: center;
+}
+.Header img{
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.busca{
+  
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0px 10px 0px 15px;
+ width: 365px;
+ height: 60px;
+ background: #ffffff;
+ border: 2px solid #e0e0e0;
+ box-sizing: border-box;
+ border-radius: 8px;
+ margin-right: 20px;
+}
+
+.busca input {
+ width: 180px;
+ height: 19px;
+ border: none;
+ font-family: "Inter", sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 16px;
+ line-height: 19px;
+ flex: none;
+ order: 0;
+ flex-grow: 0;
+ color:#E0E0E0;
+}
+
+.busca button {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ padding: 0px 20px;
+ width: 90px;
+ height: 40px;
+ background: #27ae60;
+ border: 2px solid #27ae60;
+ box-sizing: border-box;
+ border-radius: 8px;
+
+ font-family: "Inter", sans-serif;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 17px;
+ color: #ffffff;
+}
+.busca button:hover{
+  background-color: #0f6633;
+}
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito:wght@800&family=Rock+3D&display=swap');
+@media(min-width:300px) and (max-width:1000px){
+.menuContainer{
+    display: flex;
+    overflow: scroll;
+}
+}
+@media(min-width:1001px) and (max-width:1439px){
+    .menuContainer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 650px;
+        height: 285px;
+    }
+}
+@media(min-width:1440px){
+.menuContainer{
+    display: flex;
+    width: 1070px;
+    height: 285px;
+    flex-wrap: wrap;
+}
+}
